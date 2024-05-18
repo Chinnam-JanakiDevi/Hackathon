@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#addTask {
+    padding: 5px;
+    float: right;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+table {
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px;
+    text-wrap: wrap;
+}
+
+tr,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+
+thead {
+    background-color: #A3FFD6;
+}
+
+td,
+th {
+    padding: 5px;
+}
+
+/* #form{
+    display: flex;
+} */
+
+#form{
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#formContainer{
+    width: 40%;
+    height: 40%;
+    padding-top: 20px;
+    background-color: rgba(255, 228, 196, 0.482);
+    box-shadow: 10px 10px 10px 0 gray;
+}
+#editForm{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+}
+
+
+input{
+    width: 40%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#totalPrice{
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    margin-left: 45%;
+}
